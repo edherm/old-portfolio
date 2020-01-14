@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Ed Herman - Software Developer</title>
+		<title>Ed Herman | Software Developer</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -18,7 +18,7 @@
 				<section id="header">
 
 					<!-- Logo -->
-						<h1><a href="index.html">Ed Herman</a></h1>
+						<h1><a href="index.html">Ed Herman | Software Developer</a></h1>
 
 					<!-- Nav -->
 						<nav id="nav">
@@ -31,7 +31,7 @@
 										<!-- <li><a href="#">Veroeros feugiat</a></li> -->
 									</ul>
                 </li>
-                <li><a target="_blank" href="#">Download my Resume</a></li>
+                <li><a target="_blank" href="images/EdHerman_Resume.pdf">Download my Resume</a></li>
                 <li>
                   <a href="#">Profiles</a>
                   <ul>
@@ -45,7 +45,7 @@
                   <ul>
                     <li><a target="_blank" href="https://springboard-app.herokuapp.com/#/">SpringBoard</a></li>
                     <li><a target="_blank" href="https://plantr-app.herokuapp.com/#/">plantr</a></li>
-                    <li><a target="_blank" href="https://edherm.github.io/BBG-tree-explorer/">BBG Tree Explorer</a></li>
+                    <li><a target="_blank" href="https://edherm.github.io/BBG-explorer-tree/">BBG Tree Explorer</a></li>
                   </ul>
                 </li>
 								<!-- <li><a href="left-sidebar.html">Left Sidebar</a></li>
@@ -71,27 +71,49 @@
 										<header>
 											<h2>Technologies</h2>
 										</header>
-										<p>React, Redux, Rails, JavaScript, Ruby, jQuery, MongoDB, Mongoose, Express, TDD, HTML5, CSS3, SASS, Postgres, SQL,
-                    Heroku, Github, Webpack</p>
+										<div class="skills">
+                      <p class="skills-col-1">
+                        React, 
+                        Redux, 
+                        Rails, 
+                        JavaScript, 
+                        Ruby, 
+                        jQuery, 
+                        MongoDB, 
+                        Mongoose, 
+                        Express, 
+                        TDD, 
+                        HTML5, 
+                        CSS3, 
+                        SASS, 
+                        Postgres, 
+                        SQL, 
+                        Heroku, 
+                        Github, 
+                        Webpack, 
+                      </p>
+                  </div>
 									</section>
 								</div>
 								<div class="col-4 col-12-medium">
 									<section class="middle">
                     <img src="images/me.png" class="image img-headshot" alt="Ed Herman">
 										<header>
+                      <p>Ed Herman</p>
 											<h2>About Me</h2>
 										</header>
-										<p>I'm a software developer who is always willing to jump into the thick of things. I am comfortable with Ruby on Rails,
-                    MongoDB, React/Redux, Mongoose.js, Node.js, Javascript, HTML, CSS, and constantly expanding on this list.</p>
+										<p>I'm a software developer who is always willing to jump into the thick of things. I really enjoy the challenge of creating modular React components that can be used throughout a web application.</p>
 									</section>
 								</div>
 								<div class="col-4 col-12-medium">
 									<section class="last">
 										<i class="icon solid featured alt2 fa-star"></i>
 										<header>
-											<h2>Tempus adipiscing</h2>
+											<h2>Past Experience</h2>
 										</header>
-										<p>Nisl amet dolor sit ipsum veroeros sed blandit consequat veroeros et magna tempus.</p>
+										<p>My experiences in the theatre world gave me a consistently calm state-of-mind, no matter how hectic the production
+                    or my surroundings. I am perpetually organized and able to quickly get up to speed when I join projects. These skills
+                    have helped me integrate into a team or learn a new stack and hit the ground running.</p>
 									</section>
 								</div>
 							</div>
@@ -119,45 +141,61 @@
 										<div class="row">
 											<div class="col-4 col-6-medium col-12-small">
 												<section class="box">
-													<a href="https://springboard-app.herokuapp.com/#/" class="image featured"><img src="images/SpringBoardPreview2.png" alt="SpringBoard ScreenShot" /></a>
+													<a target="_blank" href="https://springboard-app.herokuapp.com/#/" class="image featured"><img src="images/SpringBoardPreview2.png" alt="SpringBoard ScreenShot" /></a>
 													<header>
 														<h3>SpringBoard</h3>
 													</header>
                           <p>A basecamp clone where users can collect project details in todo-lists, a message board, and schedule.</p>
-                          <p>SpringBoard utilizes React-Redux containers to construct modular components which were reused for 75% of the front, keeping the codebase very DRY.</p>
+                          <ul>
+                            <li>Utilized React-Redux containers to architect modular components which were reused for 75% of the front end keeping the codebase DRY.</li>
+                            <li>Optimized back end routes using Rails and JBuilder in order to decrease queries giving the user less load-time for more information.</li>
+                            <li><a target="_blank" href="https://github.com/edherm/SpringBoard" >View the Repo</a></li>
+                          </ul>
 													<footer>
 														<ul class="actions">
-															<li><a href="https://springboard-app.herokuapp.com/#/" class="button alt">View the Site</a></li>
+                              <li><a target="_blank" href="https://springboard-app.herokuapp.com/#/" class="button alt">View the Site</a></li>
+                              
 														</ul>
 													</footer>
 												</section>
 											</div>
 											<div class="col-4 col-6-medium col-12-small">
 												<section class="box">
-													<a href="https://plantr-app.herokuapp.com/" class="image featured"><img src="images/plantr_screenshot.png" alt="plantr Screenshot" /></a>
+													<a target="_blank" href="https://plantr-app.herokuapp.com/" class="image featured"><img src="images/plantr_screenshot.png" alt="plantr Screenshot" /></a>
 													<header>
 														<h3>plantr</h3>
 													</header>
                           <p>Collect your houseplants in a 'garden' to receive watering and check in reminders.</p>
-                          <p>Utilized MongoDB documents to create a joins architecture giving users the ability to collect plants in their digital
-                          garden for quick information lookup.</p>
+                          <ul>
+                              <li>Utilized mongoose schema methods to create a joins architecture giving users the ability to collect plants in their digital garden.</li>
+                              <li>Created validations for MongoDB documents taking advantage of mongoose validator methods.</li>
+                              <li>Implemented User Auth by encrypting user details via the JSON Webtoken library to be sent over HTTP ensuring unencrypted passwords are not saved to our database.</li>
+                              <li><a target="_blank" href="https://github.com/joeqnicholson/plantr">View the Repo</a></li>
+                            </ul>
 													<footer>
 														<ul class="actions">
-															<li><a href="https://plantr-app.herokuapp.com/" class="button alt">View the Site</a></li>
+															<li><a target="_blank" href="https://plantr-app.herokuapp.com/" class="button alt">View the Site</a></li>
 														</ul>
 													</footer>
 												</section>
 											</div>
 											<div class="col-4 col-6-medium col-12-small">
 												<section class="box">
-													<a href="https://edherm.github.io/BBG-tree-explorer/" class="image featured"><img src="images/bbg-screenshot.png" alt="BBG Tree Screenshot" /></a>
+													<a target="_blank" href="https://edherm.github.io/BBG-explorer-tree/" class="image featured"><img src="images/bbg-screenshot.png" alt="BBG Tree Screenshot" /></a>
 													<header>
 														<h3>Brooklyn Botanic Garden Tree Explorer</h3>
 													</header>
-													<p>Lorem ipsum dolor sit amet sit veroeros sed amet blandit consequat veroeros lorem blandit adipiscing et feugiat phasellus tempus dolore ipsum lorem dolore.</p>
+                            <p>Explore Brooklyn Botanic Garden’s Living Collection Database.</p>
+                            <ul>
+                              <li>Used D3.js v5 to create a tree data-visualization giving users the ability to find a list of plant specimens in any part of the gardens.</li>
+                              <li>Animated the collapse and expansion of tree branches using JS DOM manipulation to increase user’s interaction with the site.</li>
+                              <li>Converted BBG’s csv database into hierarchical structure utilizing a combination of D3.js and custom algorithms.</li>
+                              <li><a target="_blank" href="https://github.com/edherm/BBG-explorer-tree">View the Repo</a></li>
+                            </ul>
+                            
 													<footer>
 														<ul class="actions">
-															<li><a href="https://edherm.github.io/BBG-tree-explorer/" class="button alt">View the Site</a></li>
+															<li><a target="_blank" href="https://edherm.github.io/BBG-explorer-tree/" class="button alt">View the Site</a></li>
 														</ul>
 													</footer>
 												</section>
@@ -260,7 +298,7 @@
 				<section id="footer">
 					<div class="container">
 						<div class="row">
-							<div class="col-8 col-12-medium">
+							<!-- <div class="col-8 col-12-medium">
 								<section>
 									<header>
 										<h2>Blandit nisl adipiscing</h2>
@@ -293,8 +331,8 @@
 										</li>
 									</ul>
 								</section>
-							</div>
-							<div class="col-4 col-12-medium">
+							</div> -->
+							<!-- <div class="col-4 col-12-medium">
 								<section>
 									<header>
 										<h2>What's this all about?</h2>
@@ -311,8 +349,8 @@
 										</ul>
 									</footer>
 								</section>
-							</div>
-							<div class="col-4 col-6-medium col-12-small">
+							</div> -->
+							<!-- <div class="col-4 col-6-medium col-12-small">
 								<section>
 									<header>
 										<h2>Tempus consequat</h2>
@@ -326,8 +364,8 @@
 										<li><a href="#">Elit class aptent taciti sociosqu ad litora</a></li>
 									</ul>
 								</section>
-							</div>
-							<div class="col-4 col-6-medium col-12-small">
+							</div> -->
+							<!-- <div class="col-4 col-6-medium col-12-small">
 								<section>
 									<header>
 										<h2>Ipsum et phasellus</h2>
@@ -341,35 +379,33 @@
 										<li><a href="#">Elit class aptent taciti sociosqu ad litora</a></li>
 									</ul>
 								</section>
-							</div>
+							</div> -->
 							<div class="col-4 col-12-medium">
-								<section>
+								<section class="contact-footer">
 									<header>
-										<h2>Vitae tempor lorem</h2>
+										<h2>Get in touch:</h2>
 									</header>
 									<ul class="social">
-										<li><a class="icon brands fa-linkedin-in" href="https://www.linkedin.com/in/ed-herman-03892335/"><span class="label">LinkedIn</span></a></li>
-										<li><a class="icon brands fa-angellist" href="https://angel.co/ed-herman?public_profile=1"><span class="label">AngelList</span></a></li>
-										<li><a class="icon brands fa-github" href="https://github.com/edherm"><span class="label">GitHub</span></a></li>
+										<li><a class="icon brands fa-linkedin-in" target="_blank" href="https://www.linkedin.com/in/ed-herman-03892335/"><span class="label">LinkedIn</span></a></li>
+										<li><a class="icon brands fa-angellist" target="_blank" href="https://angel.co/ed-herman?public_profile=1"><span class="label">AngelList</span></a></li>
+										<li><a class="icon brands fa-github" target="_blank" href="https://github.com/edherm"><span class="label">GitHub</span></a></li>
 										<!-- <li><a class="icon brands fa-tumblr" href="#"><span class="label">Tumblr</span></a></li>
 										<li><a class="icon brands fa-linkedin-in" href="#"><span class="label">LinkedIn</span></a></li> -->
 									</ul>
 									<ul class="contact">
 										<li>
-											<h3>Address</h3>
+											<h3>Location</h3>
 											<p>
-												Untitled Incorporated<br />
-												1234 Somewhere Road Suite<br />
-												Nashville, TN 00000-0000
+												New York, New York
 											</p>
 										</li>
 										<li>
 											<h3>Mail</h3>
-											<p><a href="#">someone@untitled.tld</a></p>
+											<p><a target="_blank" href="mailto: edward.herman.87@gmail.com">edward.herman.87@gmail.com</a></p>
 										</li>
 										<li>
 											<h3>Phone</h3>
-											<p>(800) 000-0000</p>
+											<p>(281) 380-6025</p>
 										</li>
 									</ul>
 								</section>
@@ -379,7 +415,7 @@
 								<!-- Copyright -->
 									<div id="copyright">
 										<ul class="links">
-											<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+											<li>&copy; Ed Herman. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 										</ul>
 									</div>
 
