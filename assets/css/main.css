@@ -2177,7 +2177,7 @@ input, select, textarea {
 /* Banner */
 
 	#banner {
-		background: #CCE8F4 url("../../images/pic01.jpg");
+		background: url("../../images/profile_cover.png");
 		background-position: center center;
 		background-size: auto 100%;
 		background-repeat: no-repeat;
@@ -2188,7 +2188,7 @@ input, select, textarea {
 	}
 
 		#banner header {
-			background-color: rgba(34, 30, 31, 0.98);
+			background-color: rgba(34, 30, 31, 0.75);
 			display: inline-block;
 			padding: 2.5em 5em;
 			border-radius: 5px;
@@ -2227,7 +2227,23 @@ input, select, textarea {
 
 		#intro p {
 			margin: 0;
-		}
+    }
+    
+    .skills {
+      display: flex;
+      justify-content: center;
+    }
+
+      .skills-col-1 {
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: 10px;
+      }
+
+      .skills-col-1 > li {
+        text-align: left;
+        margin-right: 30px;
+      }
 
 		#intro .middle {
 			position: relative;
@@ -2315,7 +2331,7 @@ input, select, textarea {
 		}
 
 		#footer h2, #footer h3, #footer h4, #footer h5, #footer h6, #footer strong, #footer b {
-			color: #fff;
+			color: rgb(129, 128, 128);
 		}
 
 			#footer h2 a, #footer h3 a, #footer h4 a, #footer h5 a, #footer h6 a, #footer strong a, #footer b a {
