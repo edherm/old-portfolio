@@ -84,7 +84,6 @@ input, select, textarea {
 
 	body {
 		background: #252122;
-		background-image: url("images/bg02.png");
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -2070,7 +2069,8 @@ input, select, textarea {
 
 	#header {
 		position: relative;
-		background: #ffffff;
+    background: white;
+    
 		border-bottom: solid 1px #ccc;
 		padding: 5em 0 4em 0;
 		text-align: center;
@@ -2177,8 +2177,8 @@ input, select, textarea {
 /* Banner */
 
 	#banner {
-		background: url("../../images/profile_cover.png");
-		background-position: center center;
+		background: url("../../images/panorama_profile_cover.png");
+		background-position: center;
 		background-size: auto 100%;
 		background-repeat: no-repeat;
 		text-align: center;
@@ -2286,7 +2286,7 @@ input, select, textarea {
 
 	#main {
 		position: relative;
-		background: #f7f7f7 url("images/bg02.png");
+		background: #d6d6d6;
 		padding: 4em 0 4em 0;
 	}
 
@@ -2296,14 +2296,14 @@ input, select, textarea {
 			top: 0;
 			left: 0;
 			width: 100%;
-			background: url("images/bg01.png");
+			background: #d6d6d6;
 			background-size: 100% 100%;
 			z-index: 0;
 			opacity: 0.1;
 		}
 
 		#main .major h2 {
-			background: #f7f7f7 url("images/bg02.png");
+			background: #d6d6d6;
 		}
 
 /* Footer */
@@ -2320,7 +2320,7 @@ input, select, textarea {
 			top: 0;
 			left: 0;
 			width: 100%;
-			background: url("images/bg01.png");
+			background: #d6d6d6;
 			background-size: 100% 100%;
 			z-index: 0;
 			opacity: 0.5;
@@ -2331,7 +2331,7 @@ input, select, textarea {
 		}
 
 		#footer h2, #footer h3, #footer h4, #footer h5, #footer h6, #footer strong, #footer b {
-			color: rgb(129, 128, 128);
+			color: rgb(90, 90, 90);
 		}
 
 			#footer h2 a, #footer h3 a, #footer h4 a, #footer h5 a, #footer h6 a, #footer strong a, #footer b a {
@@ -2567,7 +2567,7 @@ input, select, textarea {
 				-moz-transition: -moz-transform 0.5s ease;
 				-webkit-transition: -webkit-transform 0.5s ease;
 				-ms-transition: -ms-transform 0.5s ease;
-				transition: transform 0.5s ease;
+        transition: transform 0.5s ease;
 				padding-bottom: 1px;
 			}
 
@@ -2651,7 +2651,7 @@ input, select, textarea {
 				width: 275px;
 				z-index: 10002;
 				color: #858484;
-				background-image: url("images/bg02.png");
+				background-image: url("../../images/pic01.jpg");
 				box-shadow: inset -3px 0px 5px 0px rgba(0, 0, 0, 0.35);
 			}
 
@@ -2865,7 +2865,7 @@ input, select, textarea {
 
 			#header {
 				text-align: center;
-				padding: 2em 0;
+        padding: 2em 0;
 			}
 
 				#header h1 {
